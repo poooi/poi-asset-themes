@@ -1,0 +1,34 @@
+{
+  "name": "poi-asset-themes",
+  "version": "1.0.0",
+  "description": "Collection of bootstrap 3 themes for poi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KagamiChan/poi-asset-themes.git"
+  },
+  "keywords": [
+    "poi",
+    "theme",
+    "bootstrap"
+  ],
+  "author": "Seki Kagami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KagamiChan/poi-asset-themes/issues"
+  },
+  "homepage": "https://github.com/KagamiChan/poi-asset-themes#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "fs-extra": "^4.0.0",
+    "node-fetch": "^1.7.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3"
+  }
+}
