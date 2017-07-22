@@ -11,10 +11,10 @@ const THEME_LIST = {
   slate: 'https://bootswatch.com/slate/bootstrap.css',
   superhero: 'https://bootswatch.com/superhero/bootstrap.css',
   united: 'https://bootswatch.com/united/bootstrap.css',
-  lumendark: 'https://raw.githubusercontent.com/PHELiOX/poi-theme-lumendark/master/lumendark.css',
+  lumendark: 'https://raw.githubusercontent.com/Artoria-0x04/poi-theme-lumendark/master/lumendark.css',
   paperdark: 'https://raw.githubusercontent.com/ruiii/poi_theme_paper_dark/master/paperdark.css',
   papercyan: 'https://raw.githubusercontent.com/govizlora/theme-papercyan/master/papercyan.css',
-  paperblack: 'https://raw.githubusercontent.com/PHELiOX/paperblack/master/css/paperblack.css',
+  paperblack: 'https://raw.githubusercontent.com/Artoria-0x04/paperblack/master/css/paperblack.css',
   darklykai: 'https://raw.githubusercontent.com/magicae/sleepy/master/dist/sleepy.css',
 }
 
