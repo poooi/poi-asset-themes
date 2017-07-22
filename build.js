@@ -27,6 +27,8 @@ const main = async () => {
       const resp = await fetch(THEME_LIST[theme])
       let css = await resp.text()
       css = css.replace(/@import.*fonts.*;\n/g, '')
+      css = css.replace(/@font-face[\s\S]*?}\n/g, '')
+      css = css.replace(/^.glyph[\s\S]*?}\n/gm, '')
       const file = path.join(__dirname, 'dist', `${theme}.css`)
       await outputFile(file, css)
       console.info('wrote ', file)
