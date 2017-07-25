@@ -19,11 +19,11 @@ const THEME_LIST = {
 }
 
 const VIBRANT_THEME_LIST = {
-  darkly: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/darkly.css',
-  darklykai: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/darklykai.css',
-  paperblack: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/paperblack.css',
-  papercyan: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/papercyan.css',
-  paperdark: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/paperdark.css',
+  darkly: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/darkly.css',
+  darklykai: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/darklykai.css',
+  paperblack: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperblack.css',
+  papercyan: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/papercyan.css',
+  paperdark: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperdark.css',
 }
 
 const THEMES = {
