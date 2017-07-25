@@ -18,10 +18,22 @@ const THEME_LIST = {
   darklykai: 'https://raw.githubusercontent.com/magicae/sleepy/master/dist/sleepy.css',
 }
 
+const VIBRANCY_THEME_LIST = {
+  darkly: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/darkly.css',
+  darklykai: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/darklykai.css',
+  paperblack: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/paperblack.css',
+  papercyan: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/papercyan.css',
+  paperdark: 'https://github.com/gnattu/poi-vibrancy-themes/blob/master/dists/paperdark.css',
+}
+
+const THEMES = {
+  normal: Object.keys(THEME_LIST),
+  vibrancy: Object.keys(VIBRANCY_THEME_LIST),
+}
 
 const main = async () => {
   ensureDir(path.join(__dirname, 'dist'))
-  await outputJson(path.join(__dirname, 'index.json'), Object.keys(THEME_LIST))
+  await outputJson(path.join(__dirname, 'index.json'), THEMES)
   Object.keys(THEME_LIST).forEach(async (theme) => {
     try {
       const resp = await fetch(THEME_LIST[theme])
@@ -29,7 +41,21 @@ const main = async () => {
       css = css.replace(/@import.*fonts.*;\n/g, '')
       css = css.replace(/@font-face[\s\S]*?}\n/g, '')
       css = css.replace(/^.glyph[\s\S]*?}\n/gm, '')
-      const file = path.join(__dirname, 'dist', `${theme}.css`)
+      const file = path.join(__dirname, 'dist', 'normal', `${theme}.css`)
+      await outputFile(file, css)
+      console.info('wrote ', file)
+    } catch (e) {
+      console.error(e.stack)
+    }
+  })
+  Object.keys(VIBRANCY_THEME_LIST).forEach(async (theme) => {
+    try {
+      const resp = await fetch(THEME_LIST[theme])
+      let css = await resp.text()
+      css = css.replace(/@import.*fonts.*;\n/g, '')
+      css = css.replace(/@font-face[\s\S]*?}\n/g, '')
+      css = css.replace(/^.glyph[\s\S]*?}\n/gm, '')
+      const file = path.join(__dirname, 'dist', 'vibrancy', `${theme}.css`)
       await outputFile(file, css)
       console.info('wrote ', file)
     } catch (e) {
