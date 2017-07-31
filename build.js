@@ -3,14 +3,9 @@ const fetch = require('node-fetch')
 const { outputFile, outputJson, ensureDir } = require('fs-extra')
 
 const THEME_LIST = {
-  __default__: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css',
   darkly: 'https://bootswatch.com/darkly/bootstrap.css',
-  flatly: 'https://bootswatch.com/flatly/bootstrap.css',
-  lumen: 'https://bootswatch.com/lumen/bootstrap.css',
-  paper: 'https://bootswatch.com/paper/bootstrap.css',
   slate: 'https://bootswatch.com/slate/bootstrap.css',
   superhero: 'https://bootswatch.com/superhero/bootstrap.css',
-  united: 'https://bootswatch.com/united/bootstrap.css',
   lumendark: 'https://raw.githubusercontent.com/Artoria-0x04/poi-theme-lumendark/master/lumendark.css',
   paperdark: 'https://raw.githubusercontent.com/ruiii/poi_theme_paper_dark/master/paperdark.css',
   papercyan: 'https://raw.githubusercontent.com/govizlora/theme-papercyan/master/papercyan.css',
@@ -24,6 +19,9 @@ const VIBRANT_THEME_LIST = {
   paperblack: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperblack.css',
   papercyan: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/papercyan.css',
   paperdark: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperdark.css',
+  slate: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/slate.css',
+  superhero: 'https://github.com/gnattu/poi-vibrancy-themes/raw/master/dists/superhero.css',
+  lumendark: 'https://github.com/gnattu/poi-vibrancy-themes/raw/master/dists/lumendark.css',
 }
 
 const THEMES = {

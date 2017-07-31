@@ -715,7 +715,7 @@ mark,
   padding: .2em; }
 
 option {
-  background-color: #222; }
+  background-color: rgba(30, 30, 30, 0.95); }
 
 .text-left {
   text-align: left; }
@@ -3101,7 +3101,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 13px;
   text-align: left;
-  background-color: #303030;
+  background-color: rgba(30, 30, 30, 0.95);
   border: none;
   border: none;
   border-radius: 3px;
@@ -5796,3 +5796,5 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+/*# sourceMappingURL=paperdark.css.map */
