@@ -24,6 +24,9 @@ const VIBRANT_THEME_LIST = {
   paperblack: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperblack.css',
   papercyan: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/papercyan.css',
   paperdark: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/paperdark.css',
+  slate: 'https://raw.githubusercontent.com/gnattu/poi-vibrancy-themes/master/dists/slate.css',
+  superhero: 'https://github.com/gnattu/poi-vibrancy-themes/raw/master/dists/superhero.css',
+  lumendark: 'https://github.com/gnattu/poi-vibrancy-themes/raw/master/dists/lumendark.css',
 }
 
 const THEMES = {
