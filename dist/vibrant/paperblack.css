@@ -6355,7 +6355,7 @@ select > option,
 select.form-control > option,
 select > optgroup,
 select.form-control > optgroup {
-  background: rgba(255, 255, 255, 0.13);
+  background: rgba(125, 125, 125, 0.9);
   color: #ffffff;
   border: 0;
 }
