@@ -5673,12 +5673,15 @@ select.form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: rgba(76, 76, 76, 0.95);
+  background-color: rgba(255, 255, 255, 0.05);
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMVEVmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmaP/QSjAAAADHRSTlMAAgMJC0uWpKa6wMxMdjkoAAAANUlEQVR4AeXJyQEAERAAsNl7Hf3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
   background-size: 14px;
   background-repeat: no-repeat;
   background-position: right center;
   font-size: 13px; }
+  select option,
+  select.form-control option {
+    background-color: rgba(76, 76, 76, 0.95); }
   select::-ms-expand,
   select.form-control::-ms-expand {
     display: none; }
