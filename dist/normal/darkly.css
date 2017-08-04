@@ -6240,3 +6240,11 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-heading {
   background-color: #464545;
 }
+
+/* patch by poi theme post processing */
+body {
+  -webkit-user-drag: none;
+}
+span, img, a, .panel-heading, .table tbody tr td {
+  -webkit-user-drag: none !important;
+}

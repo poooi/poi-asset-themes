@@ -6471,3 +6471,11 @@ a.list-group-item-danger.active:focus {
 .panel-info .panel-heading {
   border-color: #000;
 }
+
+/* patch by poi theme post processing */
+body {
+  -webkit-user-drag: none;
+}
+span, img, a, .panel-heading, .table tbody tr td {
+  -webkit-user-drag: none !important;
+}

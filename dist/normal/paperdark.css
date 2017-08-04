@@ -6781,3 +6781,11 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   -webkit-border-radius: 1px;
   background-color: #3d3d3d;
 }
+
+/* patch by poi theme post processing */
+body {
+  -webkit-user-drag: none;
+}
+span, img, a, .panel-heading, .table tbody tr td {
+  -webkit-user-drag: none !important;
+}

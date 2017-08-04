@@ -6203,3 +6203,11 @@ a.list-group-item-danger.active:focus {
 .popover-title {
   border: none;
 }
+
+/* patch by poi theme post processing */
+body {
+  -webkit-user-drag: none;
+}
+span, img, a, .panel-heading, .table tbody tr td {
+  -webkit-user-drag: none !important;
+}

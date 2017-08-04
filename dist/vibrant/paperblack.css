@@ -6746,3 +6746,11 @@ label {
 #teitoku-timer {
   background-color: rgba(255, 255, 255, 0.13) !important;
 }
+
+/* patch by poi theme post processing */
+body {
+  -webkit-user-drag: none;
+}
+span, img, a, .panel-heading, .table tbody tr td {
+  -webkit-user-drag: none !important;
+}
