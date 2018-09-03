@@ -1,6 +1,6 @@
 {
   "name": "poi-asset-themes",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "Collection of bootstrap 3 themes for poi",
   "main": "index.json",
   "scripts": {
