@@ -6434,6 +6434,9 @@ select,
 select.form-control {
   background-color: rgba(58, 63, 68, 0.85);
 }
+poi-app#poi-app-overlay {
+  background-color: rgba(120, 120, 120, 0.9);
+}
 
 /* patch by poi theme post processing */
 body {
