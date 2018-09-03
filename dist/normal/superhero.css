@@ -6203,6 +6203,9 @@ a.list-group-item-danger.active:focus {
 .popover-title {
   border: none;
 }
+.overlay-background {
+  background-color: rgba(43, 62, 80, 0.8);
+}
 
 /* patch by poi theme post processing */
 body {

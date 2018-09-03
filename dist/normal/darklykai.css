@@ -611,6 +611,9 @@ hr {
 [role="button"] {
   cursor: pointer; }
 
+.overlay-background {
+  background-color: rgba(76, 76, 76, 0.95); }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Ubuntu", "Source Han Sans CN Regular", "Source Han Sans TW Regular", "Source Han Sans JP Regular", sans-serif;

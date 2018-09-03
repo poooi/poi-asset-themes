@@ -6220,7 +6220,7 @@ a.list-group-item-danger.active:focus {
 .popover-title {
   border: none;
 }
-poi-app#poi-app-overlay {
+.overlay-background {
   background-color: rgba(43, 62, 80, 0.8);
 }
 

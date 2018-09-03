@@ -611,7 +611,7 @@ hr {
 [role="button"] {
   cursor: pointer; }
 
-poi-app#poi-app-overlay {
+.overlay-background {
   background-color: rgba(76, 76, 76, 0.95); }
 
 h1, h2, h3, h4, h5, h6,
