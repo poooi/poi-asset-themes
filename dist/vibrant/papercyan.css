@@ -7644,6 +7644,9 @@ poi-app poi-nav poi-nav-tabs .alert.alert-info {
 poi-app poi-nav poi-nav-tabs div.status-label .label-info {
   color: #ff5286;
 }
+.overlay-background {
+  background-color: rgba(70, 70, 70, 0.9);
+}
 
 /* patch by poi theme post processing */
 body {

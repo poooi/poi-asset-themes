@@ -6240,6 +6240,9 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-heading {
   background-color: #464545;
 }
+.overlay-background {
+  background-color: rgba(80, 80, 80, 0.9);
+}
 
 /* patch by poi theme post processing */
 body {

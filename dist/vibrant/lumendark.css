@@ -6462,6 +6462,9 @@ select,
 select.form-control {
   background-color: rgba(85, 85, 85, 0.95);
 }
+.overlay-background {
+  background-color: rgba(46, 46, 46, 0.9);
+}
 
 /* patch by poi theme post processing */
 body {
