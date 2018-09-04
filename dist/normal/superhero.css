@@ -6204,7 +6204,7 @@ a.list-group-item-danger.active:focus {
   border: none;
 }
 .overlay-background {
-  background-color: rgba(43, 62, 80, 0.8);
+  background-color: #2b3e50;
 }
 
 /* patch by poi theme post processing */
