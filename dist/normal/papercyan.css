@@ -7676,7 +7676,7 @@ poi-app poi-nav poi-nav-tabs div.status-label .label-info {
   color: #ff5286;
 }
 .overlay-background {
-  background-color: rgba(70, 70, 70, 0.9);
+  background-color: #1b1b1b;
 }
 
 /* patch by poi theme post processing */

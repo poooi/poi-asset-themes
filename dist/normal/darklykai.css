@@ -612,7 +612,7 @@ hr {
   cursor: pointer; }
 
 .overlay-background {
-  background-color: rgba(76, 76, 76, 0.95); }
+  background-color: #222222; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
