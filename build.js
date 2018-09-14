@@ -10,9 +10,9 @@ const fetchCss = url => fetch(url, {
 })
 
 const THEME_LIST = {
-  darkly: 'https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/darkly/bootstrap.css',
-  slate: 'https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/slate/bootstrap.css',
-  superhero: 'https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/superhero/bootstrap.css',
+  darkly: 'https://raw.githubusercontent.com/thomaspark/bootswatch/master/dist/darkly/bootstrap.css',
+  slate: 'https://raw.githubusercontent.com/thomaspark/bootswatch/master/dist/slate/bootstrap.css',
+  superhero: 'https://raw.githubusercontent.com/thomaspark/bootswatch/master/dist/superhero/bootstrap.css',
   lumendark: 'https://raw.githubusercontent.com/Artoria-0x04/poi-theme-lumendark/master/lumendark.css',
   paperdark: 'https://raw.githubusercontent.com/ruiii/poi_theme_paper_dark/master/paperdark.css',
   papercyan: 'https://raw.githubusercontent.com/govizlora/theme-papercyan/master/papercyan.css',
