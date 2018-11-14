@@ -17,10 +17,10 @@ body {
   text-transform: none;
   line-height: 1.28581;
   letter-spacing: 0;
-  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #182026; }
+  color: #182026;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif; }
 
 p {
   margin-top: 0;
@@ -65,7 +65,7 @@ Styleguide headings
   margin: 0 0 10px;
   padding: 0; }
   .bp3-dark .bp3-heading {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
 
 h1.bp3-heading, .bp3-running-text h1 {
   line-height: 40px;
@@ -117,7 +117,6 @@ Styleguide ui-text
   text-transform: none;
   line-height: 1.28581;
   letter-spacing: 0;
-  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
   font-size: 14px;
   font-weight: 400; }
 
@@ -175,42 +174,42 @@ Styleguide running-text
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h1 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text h2 {
     color: #182026;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h2 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text h3 {
     color: #182026;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h3 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text h4 {
     color: #182026;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h4 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text h5 {
     color: #182026;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h5 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text h6 {
     color: #182026;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 20px; }
     .bp3-dark .bp3-running-text h6 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text hr {
     margin: 20px 0;
     border: none;
@@ -314,7 +313,7 @@ Styleguide preformatted
   .bp3-dark .bp3-running-text pre, .bp3-running-text .bp3-dark pre, .bp3-dark .bp3-code-block {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.4);
     background: rgba(16, 22, 26, 0.3);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-running-text pre > code, .bp3-code-block > code {
     box-shadow: none;
     background: none;
@@ -328,7 +327,7 @@ Styleguide preformatted
   justify-content: center;
   border-radius: 3px;
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0), 0 1px 1px rgba(16, 22, 26, 0.2);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   min-width: 24px;
   height: 24px;
   padding: 3px 6px;
@@ -425,7 +424,7 @@ Styleguide rtl
   text-align: right; }
 
 .bp3-dark {
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
 
 :focus {
   outline: rgba(19, 124, 189, 0.6) auto 2px;
@@ -531,7 +530,8 @@ Styleguide breadcrumbs
   border-radius: 3px;
   background: #ced9e0;
   cursor: pointer;
-  padding: 1px 5px; }
+  padding: 1px 5px;
+  vertical-align: text-bottom; }
   .bp3-breadcrumbs-collapsed::before {
     display: block;
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cg fill='%235C7080'%3e%3ccircle cx='2' cy='8.03' r='2'/%3e%3ccircle cx='14' cy='8.03' r='2'/%3e%3ccircle cx='8' cy='8.03' r='2'/%3e%3c/g%3e%3c/svg%3e") center no-repeat;
@@ -554,13 +554,13 @@ Styleguide breadcrumbs
   color: rgba(191, 204, 214, 0.5); }
 
 .bp3-dark .bp3-breadcrumb-current {
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
 
 .bp3-dark .bp3-breadcrumbs-collapsed {
   background: rgba(16, 22, 26, 0.4); }
   .bp3-dark .bp3-breadcrumbs-collapsed:hover {
     background: rgba(16, 22, 26, 0.6);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
 
 /*
 CSS `border` property issues:
@@ -636,16 +636,16 @@ Styleguide button
     text-align: right; }
   .bp3-button:not([class*="bp3-intent-"]) {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
-    background-color: #f5f8fa;
+    background-color: rgba(245, 248, 250, 0.9);
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
     color: #182026; }
     .bp3-button:not([class*="bp3-intent-"]):hover {
       box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
       background-clip: padding-box;
-      background-color: #ebf1f5; }
+      background-color: rgba(235, 241, 245, 0.9); }
     .bp3-button:not([class*="bp3-intent-"]):active, .bp3-button:not([class*="bp3-intent-"]).bp3-active {
       box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-      background-color: #d8e1e8;
+      background-color: rgba(216, 225, 232, 0.9);
       background-image: none; }
     .bp3-button:not([class*="bp3-intent-"]):disabled, .bp3-button:not([class*="bp3-intent-"]).bp3-disabled {
       outline: none;
@@ -788,9 +788,9 @@ Styleguide button
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
     background-color: rgba(57, 75, 89, 0.9);
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-button:not([class*="bp3-intent-"]):hover, .bp3-dark .bp3-button:not([class*="bp3-intent-"]):active, .bp3-dark .bp3-button:not([class*="bp3-intent-"]).bp3-active {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-button:not([class*="bp3-intent-"]):hover {
       box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
       background-color: rgba(48, 64, 77, 0.9); }
@@ -858,7 +858,7 @@ Styleguide button
         background: rgba(138, 155, 168, 0.15); }
       .bp3-dark .bp3-button.bp3-minimal:active, .bp3-dark .bp3-button.bp3-minimal.bp3-active {
         background: rgba(138, 155, 168, 0.3);
-        color: #f5f8fa; }
+        color: rgba(245, 248, 250, 0.9); }
       .bp3-dark .bp3-button.bp3-minimal:disabled, .bp3-dark .bp3-button.bp3-minimal:disabled:hover, .bp3-dark .bp3-button.bp3-minimal.bp3-disabled, .bp3-dark .bp3-button.bp3-minimal.bp3-disabled:hover {
         background: none;
         cursor: not-allowed;
@@ -1190,7 +1190,7 @@ Styleguide button-group
         background: rgba(138, 155, 168, 0.15); }
       .bp3-dark .bp3-button-group.bp3-minimal .bp3-button:active, .bp3-dark .bp3-button-group.bp3-minimal .bp3-button.bp3-active {
         background: rgba(138, 155, 168, 0.3);
-        color: #f5f8fa; }
+        color: rgba(245, 248, 250, 0.9); }
       .bp3-dark .bp3-button-group.bp3-minimal .bp3-button:disabled, .bp3-dark .bp3-button-group.bp3-minimal .bp3-button:disabled:hover, .bp3-dark .bp3-button-group.bp3-minimal .bp3-button.bp3-disabled, .bp3-dark .bp3-button-group.bp3-minimal .bp3-button.bp3-disabled:hover {
         background: none;
         cursor: not-allowed;
@@ -1486,7 +1486,7 @@ Styleguide card
 .bp3-card {
   border-radius: 3px;
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
   transition: transform 200ms cubic-bezier(0.4, 1, 0.75, 0.9), box-shadow 200ms cubic-bezier(0.4, 1, 0.75, 0.9); }
   .bp3-card.bp3-dark,
@@ -1676,7 +1676,7 @@ Styleguide dialog
   margin: 30px 0;
   border-radius: 6px;
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 4px 8px rgba(16, 22, 26, 0.2), 0 18px 46px 6px rgba(16, 22, 26, 0.2);
-  background: #ebf1f5;
+  background: rgba(235, 241, 245, 0.9);
   width: 500px;
   padding-bottom: 20px;
   pointer-events: all;
@@ -1687,7 +1687,7 @@ Styleguide dialog
   .bp3-dark .bp3-dialog {
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), 0 4px 8px rgba(16, 22, 26, 0.4), 0 18px 46px 6px rgba(16, 22, 26, 0.4);
     background: rgba(41, 55, 66, 0.9);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
 
 .bp3-dialog-header {
   display: flex;
@@ -1695,7 +1695,7 @@ Styleguide dialog
   align-items: center;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 1px 0 rgba(16, 22, 26, 0.15);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   min-height: 40px;
   padding-right: 5px;
   padding-left: 20px; }
@@ -1780,7 +1780,7 @@ Switches and slider handles both use these variables.
     box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.15); }
   .bp3-editable-text.bp3-editable-text-editing::before {
     box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.2);
-    background-color: #ffffff; }
+    background-color: rgba(255, 255, 255, 0.9); }
   .bp3-editable-text.bp3-disabled::before {
     box-shadow: none; }
   .bp3-editable-text.bp3-intent-primary .bp3-editable-text-input,
@@ -2302,7 +2302,7 @@ Switches and slider handles both use these variables.
     border: none;
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
     background-clip: padding-box;
-    background-color: #f5f8fa;
+    background-color: rgba(245, 248, 250, 0.9);
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
     cursor: pointer;
     width: 1em;
@@ -2311,15 +2311,15 @@ Switches and slider handles both use these variables.
     font-size: 16px;
     user-select: none; }
     .bp3-control .bp3-control-indicator::before {
-      display: inline-block;
+      display: block;
       width: 1em;
       height: 1em;
       content: ""; }
   .bp3-control:hover .bp3-control-indicator {
-    background-color: #ebf1f5; }
+    background-color: rgba(235, 241, 245, 0.9); }
   .bp3-control input:not(:disabled):active ~ .bp3-control-indicator {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-    background: #d8e1e8; }
+    background: rgba(216, 225, 232, 0.9); }
   .bp3-control input:disabled ~ .bp3-control-indicator {
     box-shadow: none;
     background: rgba(206, 217, 224, 0.5);
@@ -2421,7 +2421,7 @@ Switches and slider handles both use these variables.
       margin: 2px;
       border-radius: 50%;
       box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), 0 1px 1px rgba(16, 22, 26, 0.2);
-      background: #ffffff;
+      background: rgba(255, 255, 255, 0.9);
       width: calc(1em - 4px);
       height: calc(1em - 4px);
       transition: left 100ms cubic-bezier(0.4, 1, 0.75, 0.9); }
@@ -2457,7 +2457,7 @@ Switches and slider handles both use these variables.
   .bp3-dark .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator::before {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.4); }
   .bp3-dark .bp3-control {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-control.bp3-disabled {
       color: rgba(191, 204, 214, 0.5); }
     .bp3-dark .bp3-control .bp3-control-indicator {
@@ -2559,7 +2559,7 @@ Styleguide file-input
   border: none;
   border-radius: 3px;
   box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.15), inset 0 1px 1px rgba(16, 22, 26, 0.2);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   height: 30px;
   padding: 0 10px;
   vertical-align: middle;
@@ -2598,7 +2598,7 @@ Styleguide file-input
     resize: none; }
   .bp3-file-upload-input::after {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
-    background-color: #f5f8fa;
+    background-color: rgba(245, 248, 250, 0.9);
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
     color: #182026;
     min-width: 24px;
@@ -2615,10 +2615,10 @@ Styleguide file-input
     .bp3-file-upload-input::after:hover {
       box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
       background-clip: padding-box;
-      background-color: #ebf1f5; }
+      background-color: rgba(235, 241, 245, 0.9); }
     .bp3-file-upload-input::after:active, .bp3-file-upload-input::after.bp3-active {
       box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-      background-color: #d8e1e8;
+      background-color: rgba(216, 225, 232, 0.9);
       background-image: none; }
     .bp3-file-upload-input::after:disabled, .bp3-file-upload-input::after.bp3-disabled {
       outline: none;
@@ -2632,10 +2632,10 @@ Styleguide file-input
   .bp3-file-upload-input:hover::after {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
     background-clip: padding-box;
-    background-color: #ebf1f5; }
+    background-color: rgba(235, 241, 245, 0.9); }
   .bp3-file-upload-input:active::after {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-    background-color: #d8e1e8;
+    background-color: rgba(216, 225, 232, 0.9);
     background-image: none; }
   .bp3-large .bp3-file-upload-input {
     height: 40px;
@@ -2653,7 +2653,7 @@ Styleguide file-input
   .bp3-dark .bp3-file-upload-input {
     box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.4);
     background: rgba(16, 22, 26, 0.3);
-    color: #f5f8fa;
+    color: rgba(245, 248, 250, 0.9);
     color: #bfccd6; }
     .bp3-dark .bp3-file-upload-input::placeholder {
       color: rgba(191, 204, 214, 0.5); }
@@ -2669,9 +2669,9 @@ Styleguide file-input
       box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
       background-color: rgba(57, 75, 89, 0.9);
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
       .bp3-dark .bp3-file-upload-input::after:hover, .bp3-dark .bp3-file-upload-input::after:active, .bp3-dark .bp3-file-upload-input::after.bp3-active {
-        color: #f5f8fa; }
+        color: rgba(245, 248, 250, 0.9); }
       .bp3-dark .bp3-file-upload-input::after:hover {
         box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
         background-color: rgba(48, 64, 77, 0.9); }
@@ -3033,7 +3033,7 @@ Styleguide input
   border: none;
   border-radius: 3px;
   box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.15), inset 0 1px 1px rgba(16, 22, 26, 0.2);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   height: 30px;
   padding: 0 10px;
   vertical-align: middle;
@@ -3080,7 +3080,7 @@ Styleguide input
   .bp3-dark .bp3-input {
     box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.4);
     background: rgba(16, 22, 26, 0.3);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-input::placeholder {
       color: rgba(191, 204, 214, 0.5); }
     .bp3-dark .bp3-input:focus {
@@ -3200,7 +3200,7 @@ textarea.bp3-input {
   .bp3-dark textarea.bp3-input {
     box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.4);
     background: rgba(16, 22, 26, 0.3);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark textarea.bp3-input::placeholder {
       color: rgba(191, 204, 214, 0.5); }
     .bp3-dark textarea.bp3-input:focus {
@@ -3283,7 +3283,7 @@ label.bp3-label {
   label.bp3-label:not(.bp3-inline) .bp3-popover-target {
     display: block; }
   .bp3-dark label.bp3-label {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark label.bp3-label.bp3-disabled,
     .bp3-dark label.bp3-label.bp3-disabled .bp3-text-muted {
       color: rgba(191, 204, 214, 0.5); }
@@ -3414,7 +3414,7 @@ Switches and slider handles both use these variables.
   text-align: left;
   font-size: 14px;
   box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
-  background-color: #f5f8fa;
+  background-color: rgba(245, 248, 250, 0.9);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
   color: #182026;
   border-radius: 3px;
@@ -3443,12 +3443,12 @@ Switches and slider handles both use these variables.
   .bp3-select select:hover {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
     background-clip: padding-box;
-    background-color: #ebf1f5; }
+    background-color: rgba(235, 241, 245, 0.9); }
   .bp3-html-select select:active,
   .bp3-select select:active, .bp3-html-select select.bp3-active,
   .bp3-select select.bp3-active {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-    background-color: #d8e1e8;
+    background-color: rgba(216, 225, 232, 0.9);
     background-image: none; }
   .bp3-html-select select:disabled,
   .bp3-select select:disabled, .bp3-html-select select.bp3-disabled,
@@ -3521,7 +3521,7 @@ Switches and slider handles both use these variables.
     .bp3-select.bp3-minimal select.bp3-active,
     .bp3-select.bp3-minimal .bp3-dark select.bp3-active {
       background: rgba(138, 155, 168, 0.3);
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-html-select.bp3-minimal select:disabled, .bp3-html-select.bp3-minimal .bp3-dark select:disabled, .bp3-dark
     .bp3-select.bp3-minimal select:disabled,
     .bp3-select.bp3-minimal .bp3-dark select:disabled, .bp3-dark .bp3-html-select.bp3-minimal select:disabled:hover, .bp3-html-select.bp3-minimal .bp3-dark select:disabled:hover, .bp3-dark
@@ -3796,12 +3796,12 @@ Switches and slider handles both use these variables.
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
   background-color: rgba(57, 75, 89, 0.9);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-html-select select:hover, .bp3-dark
   .bp3-select select:hover, .bp3-dark .bp3-html-select select:active, .bp3-dark
   .bp3-select select:active, .bp3-dark .bp3-html-select select.bp3-active, .bp3-dark
   .bp3-select select.bp3-active {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-html-select select:hover, .bp3-dark
   .bp3-select select:hover {
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
@@ -3887,7 +3887,7 @@ Styleguide select
       color: #bfccd6; }
       .bp3-dark .bp3-html-select .bp3-icon:hover, .bp3-dark
       .bp3-select .bp3-icon:hover {
-        color: #f5f8fa; }
+        color: rgba(245, 248, 250, 0.9); }
   .bp3-html-select.bp3-large::after,
   .bp3-html-select.bp3-large .bp3-icon,
   .bp3-select.bp3-large::after,
@@ -3902,7 +3902,7 @@ Styleguide select
   .bp3-dark .bp3-html-select option, .bp3-dark
   .bp3-select option {
     background-color: rgba(48, 64, 77, 0.9);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-html-select::after, .bp3-dark
   .bp3-select::after {
     color: #bfccd6; }
@@ -3971,9 +3971,9 @@ Styleguide html-table
   .bp3-running-text table tbody tr:first-child th, table.bp3-html-table tbody tr:first-child th, .bp3-running-text table tbody tr:first-child td, table.bp3-html-table tbody tr:first-child td {
     box-shadow: inset 0 1px 0 0 rgba(16, 22, 26, 0.15); }
   .bp3-dark .bp3-running-text table th, .bp3-running-text .bp3-dark table th, .bp3-dark table.bp3-html-table th {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-running-text table td, .bp3-running-text .bp3-dark table td, .bp3-dark table.bp3-html-table td {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-running-text table tbody tr:first-child th, .bp3-running-text .bp3-dark table tbody tr:first-child th, .bp3-dark table.bp3-html-table tbody tr:first-child th,
   .bp3-dark .bp3-running-text table tbody tr:first-child td, .bp3-running-text
   .bp3-dark table tbody tr:first-child td,
@@ -4088,7 +4088,8 @@ table.bp3-html-table.bp3-interactive tbody tr:active td {
  */
 .bp3-icon {
   display: inline-block;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  vertical-align: text-bottom; }
   .bp3-icon:not(:empty)::before {
     content: "" !important;
     content: unset !important; }
@@ -5564,7 +5565,7 @@ Styleguide menu
 .bp3-menu {
   margin: 0;
   border-radius: 3px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   min-width: 180px;
   padding: 5px;
   list-style: none;
@@ -5771,7 +5772,7 @@ Styleguide menu-header
     padding: 10px 7px 0 1px;
     line-height: 17px; }
     .bp3-dark .bp3-menu-header > h6 {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-menu-header:first-of-type > h6 {
     padding-top: 0; }
   .bp3-large .bp3-menu-header > h6 {
@@ -5783,7 +5784,7 @@ Styleguide menu-header
 
 .bp3-dark .bp3-menu {
   background: rgba(48, 64, 77, 0.9);
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
 
 .bp3-dark .bp3-menu-item.bp3-intent-primary {
   color: #48aff0; }
@@ -5883,7 +5884,7 @@ Styleguide menu-header
   border-color: rgba(255, 255, 255, 0.15); }
 
 .bp3-dark .bp3-menu-header > h6 {
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
 
 .bp3-label .bp3-menu {
   margin-top: 5px; }
@@ -5915,7 +5916,7 @@ Styleguide navbar
   position: relative;
   z-index: 10;
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0), 0 1px 1px rgba(16, 22, 26, 0.2);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   height: 50px;
   padding: 0 15px; }
@@ -5931,9 +5932,6 @@ Styleguide navbar
     top: 0;
     right: 0;
     left: 0; }
-  .bp3-navbar .bp3-logo {
-    margin-right: 15px;
-    width: 20px; }
 
 .bp3-navbar-heading {
   margin-right: 15px;
@@ -6168,10 +6166,10 @@ Format transition class name with all the bits.
   flex-direction: column;
   margin-right: -1px;
   border-right: 1px solid rgba(16, 22, 26, 0.15);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.6);
   overflow-y: auto; }
   .bp3-dark .bp3-panel-stack-view {
-    background-color: rgba(48, 64, 77, 0.9); }
+    background-color: rgba(48, 64, 77, 0.6); }
 
 .bp3-panel-stack-push .bp3-panel-stack-enter, .bp3-panel-stack-push .bp3-panel-stack-appear {
   transform: translateX(100%);
@@ -6336,7 +6334,7 @@ Format transition class name with all the bits.
   .bp3-tether-element-attached-bottom.bp3-tether-element-attached-right > .bp3-popover {
     transform-origin: bottom right; }
   .bp3-popover .bp3-popover-content {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
     color: inherit; }
   .bp3-popover .bp3-popover-arrow::before {
     box-shadow: 1px 1px 6px rgba(16, 22, 26, 0.2); }
@@ -6344,7 +6342,7 @@ Format transition class name with all the bits.
     fill: #10161a;
     fill-opacity: 0.1; }
   .bp3-popover .bp3-popover-arrow-fill {
-    fill: #ffffff; }
+    fill: rgba(255, 255, 255, 0.9); }
   .bp3-popover-enter > .bp3-popover, .bp3-popover-appear > .bp3-popover {
     transform: scale(0.3); }
   .bp3-popover-enter-active > .bp3-popover, .bp3-popover-appear-active > .bp3-popover {
@@ -6636,7 +6634,7 @@ Switches and slider handles both use these variables.
 
 .bp3-slider-handle {
   box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
-  background-color: #f5f8fa;
+  background-color: rgba(245, 248, 250, 0.9);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
   color: #182026;
   position: absolute;
@@ -6650,10 +6648,10 @@ Switches and slider handles both use these variables.
   .bp3-slider-handle:hover {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
     background-clip: padding-box;
-    background-color: #ebf1f5; }
+    background-color: rgba(235, 241, 245, 0.9); }
   .bp3-slider-handle:active, .bp3-slider-handle.bp3-active {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-    background-color: #d8e1e8;
+    background-color: rgba(216, 225, 232, 0.9);
     background-image: none; }
   .bp3-slider-handle:disabled, .bp3-slider-handle.bp3-disabled {
     outline: none;
@@ -6669,13 +6667,13 @@ Switches and slider handles both use these variables.
   .bp3-slider-handle:hover {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 -1px 0 rgba(16, 22, 26, 0.1);
     background-clip: padding-box;
-    background-color: #ebf1f5;
+    background-color: rgba(235, 241, 245, 0.9);
     z-index: 2;
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), 0 1px 1px rgba(16, 22, 26, 0.2);
     cursor: grab; }
   .bp3-slider-handle.bp3-active {
     box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 2px rgba(16, 22, 26, 0.2);
-    background-color: #d8e1e8;
+    background-color: rgba(216, 225, 232, 0.9);
     background-image: none;
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), inset 0 1px 1px rgba(16, 22, 26, 0.1);
     cursor: grabbing; }
@@ -6687,9 +6685,9 @@ Switches and slider handles both use these variables.
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
     background-color: rgba(57, 75, 89, 0.9);
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-slider-handle:hover, .bp3-dark .bp3-slider-handle:active, .bp3-dark .bp3-slider-handle.bp3-active {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-slider-handle:hover {
       box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
       background-color: rgba(48, 64, 77, 0.9); }
@@ -6720,10 +6718,10 @@ Switches and slider handles both use these variables.
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
     background: rgba(57, 75, 89, 0.9);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-slider-handle .bp3-slider-label {
       box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), 0 2px 4px rgba(16, 22, 26, 0.4), 0 8px 24px rgba(16, 22, 26, 0.4);
-      background: #e1e8ed;
+      background: rgba(225, 232, 237, 0.9);
       color: rgba(57, 75, 89, 0.9); }
     .bp3-disabled .bp3-slider-handle .bp3-slider-label {
       box-shadow: none; }
@@ -6944,7 +6942,7 @@ Styleguide tabs
     transition: none; }
 
 .bp3-dark .bp3-tab {
-  color: #f5f8fa; }
+  color: rgba(245, 248, 250, 0.9); }
   .bp3-dark .bp3-tab[aria-disabled="true"] {
     color: rgba(191, 204, 214, 0.5); }
   .bp3-dark .bp3-tab[aria-selected="true"] {
@@ -7002,7 +7000,8 @@ Styleguide tag
   max-width: 100%;
   min-height: 20px;
   padding: 2px 6px;
-  color: #f5f8fa;
+  line-height: 16px;
+  color: rgba(245, 248, 250, 0.9);
   font-size: 12px; }
   .bp3-tag.bp3-interactive {
     cursor: pointer; }
@@ -7048,6 +7047,7 @@ Styleguide tag
     min-width: 30px;
     min-height: 30px;
     padding: 0 10px;
+    line-height: 20px;
     font-size: 14px; }
     .bp3-tag.bp3-large::before,
     .bp3-tag.bp3-large > *,
@@ -7111,7 +7111,7 @@ Styleguide tag
       .bp3-tag.bp3-minimal:not([class*="bp3-intent-"]).bp3-interactive.bp3-active, .bp3-tag.bp3-minimal:not([class*="bp3-intent-"]).bp3-interactive:active {
         background-color: rgba(92, 112, 128, 0.4); }
     .bp3-dark .bp3-tag.bp3-minimal:not([class*="bp3-intent-"]) {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
       .bp3-dark .bp3-tag.bp3-minimal:not([class*="bp3-intent-"]).bp3-interactive {
         cursor: pointer; }
         .bp3-dark .bp3-tag.bp3-minimal:not([class*="bp3-intent-"]).bp3-interactive:hover {
@@ -7353,11 +7353,11 @@ Switches and slider handles both use these variables.
       margin-left: 0; }
   .bp3-tag-input.bp3-active {
     box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 1px rgba(16, 22, 26, 0.2);
-    background-color: #ffffff; }
+    background-color: rgba(255, 255, 255, 0.9); }
   .bp3-dark .bp3-tag-input .bp3-tag-input-icon, .bp3-tag-input.bp3-dark .bp3-tag-input-icon {
     color: #bfccd6; }
   .bp3-dark .bp3-tag-input .bp3-input-ghost, .bp3-tag-input.bp3-dark .bp3-input-ghost {
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
     .bp3-dark .bp3-tag-input .bp3-input-ghost::placeholder, .bp3-tag-input.bp3-dark .bp3-input-ghost::placeholder {
       color: rgba(191, 204, 214, 0.5); }
   .bp3-dark .bp3-tag-input.bp3-active, .bp3-tag-input.bp3-dark.bp3-active {
@@ -7424,7 +7424,7 @@ Format transition class name with all the bits.
   margin: 20px 0 0;
   border-radius: 3px;
   box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   min-width: 300px;
   max-width: 500px;
   pointer-events: all; }
@@ -7654,7 +7654,7 @@ Format transition class name with all the bits.
     transform-origin: bottom right; }
   .bp3-tooltip .bp3-popover-content {
     background: rgba(57, 75, 89, 0.9);
-    color: #f5f8fa; }
+    color: rgba(245, 248, 250, 0.9); }
   .bp3-tooltip .bp3-popover-arrow::before {
     box-shadow: 1px 1px 6px rgba(16, 22, 26, 0.2); }
   .bp3-tooltip .bp3-popover-arrow-border {
@@ -7685,7 +7685,7 @@ Format transition class name with all the bits.
     box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.2), 0 2px 4px rgba(16, 22, 26, 0.4), 0 8px 24px rgba(16, 22, 26, 0.4); }
     .bp3-tooltip.bp3-dark .bp3-popover-content,
     .bp3-dark .bp3-tooltip .bp3-popover-content {
-      background: #e1e8ed;
+      background: rgba(225, 232, 237, 0.9);
       color: rgba(57, 75, 89, 0.9); }
     .bp3-tooltip.bp3-dark .bp3-popover-arrow::before,
     .bp3-dark .bp3-tooltip .bp3-popover-arrow::before {
@@ -7696,7 +7696,7 @@ Format transition class name with all the bits.
       fill-opacity: 0.2; }
     .bp3-tooltip.bp3-dark .bp3-popover-arrow-fill,
     .bp3-dark .bp3-tooltip .bp3-popover-arrow-fill {
-      fill: #e1e8ed; }
+      fill: rgba(225, 232, 237, 0.9); }
   .bp3-tooltip.bp3-intent-primary .bp3-popover-content {
     background: #137cbd;
     color: #ffffff; }
@@ -7867,7 +7867,7 @@ Styleguide tree
   .bp3-dark .bp3-tree-node-caret {
     color: #bfccd6; }
     .bp3-dark .bp3-tree-node-caret:hover {
-      color: #f5f8fa; }
+      color: rgba(245, 248, 250, 0.9); }
   .bp3-tree-node-caret.bp3-tree-node-caret-open {
     transform: rotate(90deg); }
   .bp3-tree-node-caret.bp3-icon-standard::before {
